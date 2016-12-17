@@ -29,7 +29,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	hInst = hInstance; // Store instance handle in our global variable
 					   // hWnd: the value returned from CreateWindow
 	HWND hWnd = CreateWindow(_T("win32app"), _T("Win32 Hello Tour Application"), WS_MINIMIZEBOX | WS_SYSMENU,
-		CW_USEDEFAULT, CW_USEDEFAULT, 300, 300, HWND_DESKTOP, NULL, hInstance, NULL);
+		CW_USEDEFAULT, CW_USEDEFAULT, 400, 400, HWND_DESKTOP, NULL, hInstance, NULL);
 
 	if (!hWnd)
 	{
